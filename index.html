@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Caça ao tesouro secreto</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.webp" alt="">
+            <p>Um dia enquanto procurava algum livro interessante pelas bibliotecas de Hogwarts, você acaba 
+                achando um pequeno livro velho que dizia sobre um teouro secreto, curioso então, você decide 
+                procurar o tal tesoro, por onde começo a busca?</p>
+                <button class="btn-proximo" data-proximo="1">Salão comunal</button>
+                <button class="btn-proximo" data-proximo="2">Torre de astronomia</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você começa sua procura no salão comunal, pasando pelas mesas você escolhe</p>
+                <button class="btn-proximo" data-proximo="3">mesas da grifinia e corvinal (direita)</button>
+                <button class="btn-proximo" data-proximo="4">mesas da lufa lufa e sonserina (esquerda)</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Na torre de astronomia, você procura por toda parte e em um monte de coisas velhas acha um pergaminho diferente, que dizia “se você procura  por tesouros, não é por aqui que deveria continuar.”</p>
+            <button class="btn-proximo" data-proximo="5">Procurar uma pista com algum professor</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as salas de aula</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Quando estava procurando entre as mesas, você encontra na mesa da corvinal um pergaminho escrito “o que voê desja está bem loge daqui, talves em um local com mais natureza...”</p>
+                <button class="btn-proximo" data-proximo="7">seguir em direção à área aberta</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="">
+            <p>Você procura alguma pista mas não encontra nada, entâo decide que essa aventura seria longa demais para você e volta para os dormitórios.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Enquanto andava. se depara com professor Hagrid nos corredores, quando questionado sobre o tesuro, ele diz que oviu que ele se encontraria na parte externa da escola</p>
+                <button class="btn-proximo" data-proximo="7">seguir em direção à área aberta</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as salas, você acha mais um pergaminho misterioso</p>
+            <button class="btn-proximo" data-proximo="8">Ler o pergaminho</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Quando você chega na área aberta, se depara com mais duas opções</p>
+                <button class="btn-proximo" data-proximo="9">Seguir pela Floresta Proibida</button>
+                <button class="btn-proximo" data-proximo="10">Seguir pela cabana de Hagrid</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>“O que você procura está em algum local mais aberto, com natureza...”</p>
+            <button class="btn-proximo" data-proximo="7">seguir em direção à área aberta</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Enquanto andava pela floresta, voce acha mais um recado em uma das árvores, dizendo que o tesouro estaria na redondezas do lago, você decide continuar.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a floresta proibida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você vai até a cabana para perguntar a Hagrid sobre o tal tesouro secreto.</p>
+                <button class="btn-proximo" data-proximo="12">Conversar com ele sobre o tesouro</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpg" alt="">
+            <p>Você encontra o tesouro que tanto procurava! Ele estava cheio de galeões e estudos de magias inovadoras, então voce o leva pra a escola para os professores  estudarem sobre isso</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ele te diz que ja ouviu sobre o tal tesouro, e que em lendas diziam que ele se encontraria na floresta poibida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a floresta proibida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
